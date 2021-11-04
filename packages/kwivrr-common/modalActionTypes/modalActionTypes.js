@@ -1,0 +1,8 @@
+const modalActionTypes = {
+    UPDATE_NOTIFICATIONS: 'UPDATE_NOTIFICATIONS',
+    UPDATE_SEARCHBAR: 'UPDATE_SEARCHBAR',
+    UPDATE_MENU: 'UPDATE_MENU',
+    CLOSE_ALL_MODALS: 'CLOSE_ALL_MODALS'
+};
+
+export default modalActionTypes;

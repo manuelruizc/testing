@@ -1,0 +1,14 @@
+rootProject.name = 'kwiva'
+
+include ':app',
+        ':react-native-red5pro'
+
+project(':react-native-red5pro').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-red5pro/android')
+
+apply from: new File(["node", "--print", "require.resolve('expo/package.json')"].execute().text.trim(), "../scripts/autolinking.gradle");
+useExpoModules()
+
+apply from: new File(["node", "--print", "require.resolve('@react-native-community/cli-platform-android/package.json')"].execute().text.trim(), "../native_modules.gradle");
+applyNativeModulesSettingsGradle(settings)
+
+include ':app'

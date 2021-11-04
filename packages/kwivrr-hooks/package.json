@@ -1,0 +1,12 @@
+{
+    "name": "kwivrr-hooks",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "kwivrr-assets": "0.1.0",
+        "kwivrr-app": "0.1.0",
+        "kwivrr-common": "0.1.0",
+        "kwivrr-hooks": "0.1.0",
+        "kwivrr-ui": "0.1.0"
+    }
+}

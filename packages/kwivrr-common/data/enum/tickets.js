@@ -1,0 +1,15 @@
+export const TICKET_STATE_ENUMS = {
+    REVOKED: 'Revoked',
+    UNCHECKED_IN: 'Unchecked In',
+    CHECKED_IN: 'Checked In',
+    REFUNDED: 'Refunded',
+    PARTIALLY_REFUNDED: 'Partially Refunded',
+    PURCHASED: 'Attending',
+    UPGRADED: 'Upgraded',
+    RECLAIMED: 'Reclaimed',
+    CREDENTIALS_SET: 'Credentials Set',
+    CLAIMED: 'Claimed',
+    PENDING_TRANSFER: 'Pending Transfer',
+    SOLD: 'Sold',
+    SOLD_CUSTOM: 'Sold Custom',
+};
